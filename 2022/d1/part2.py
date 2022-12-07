@@ -1,6 +1,6 @@
 
 
-with open('d1/input.txt', 'r', encoding='utf-8') as infile:
+with open('2022/d1/input.txt', 'r', encoding='utf-8') as infile:
   elfs = []
   current_elf = 0
   for line in infile:

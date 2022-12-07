@@ -28,7 +28,7 @@ def get_score(oponent_choice, my_choice):
   return score
   
 
-with open('d2/input.txt', 'r', encoding='utf-8') as infile:
+with open('2022/d2/input.txt', 'r', encoding='utf-8') as infile:
   tot_score = 0
   for line in infile:
     oponent_choice, my_choice = line.strip().split(' ')
